@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/SheaHawkins/autobots/internal/cmd/hello"
-	"github.com/SheaHawkins/autobots/internal/cmd/shared"
+	"github.com/gotbots/autobots/internal/cmd/hello"
+	"github.com/gotbots/autobots/internal/cmd/shared"
 	"github.com/spf13/cobra"
 )
 
