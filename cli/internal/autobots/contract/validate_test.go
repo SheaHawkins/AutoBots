@@ -169,7 +169,6 @@ func TestValidateContract(t *testing.T) {
 				}
 
 				// Check if the error is of the correct wrapping type
-				// (Though checking the string output is usually sufficient for validation logic)
 				if !strings.Contains(err.Error(), "invalid contract") {
 					t.Errorf("expected error to wrap 'invalid contract', got: %v", err)
 				}
